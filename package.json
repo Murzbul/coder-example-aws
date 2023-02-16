@@ -1,0 +1,25 @@
+{
+  "name": "32190",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node .",
+    "lint": "eslint -c .eslintrc.json ./src"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1316.0",
+    "dotenv": "^16.0.3",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-plugin-import": "^2.27.5",
+    "nodemon": "^2.0.20"
+  }
+}
